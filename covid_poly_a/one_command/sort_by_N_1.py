@@ -67,3 +67,8 @@ def the_sort(the_file):
 
     return count_virus
 
+if __name__ == "__main__":
+    s_file = input("Enter the name of the file")
+    the_sort(s_file)
+
+    
