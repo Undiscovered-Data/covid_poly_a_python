@@ -34,3 +34,6 @@ def plot_it(the_file):
 
     open_file.close()
 
+if __name__ == '__main__':
+    plot_it('./dest/data.txt')
+    
