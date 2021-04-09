@@ -7,11 +7,11 @@ wi_file = open("./dest/incomp2.fasta", 'w')
 is_first = True
 list_file = []
 for line in o_file:
-    if ">" in line and is_first == True:
+    if line.startswith('>') and is_first:
         list_file.append(line)
         is_first = False
 
-    elif ">" in line:
+    elif line.startswith('>'):
         if len(list_file) >= 400:
             for a in list_file:
                 wc_file.write(a)
