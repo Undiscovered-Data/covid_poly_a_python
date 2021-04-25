@@ -7,6 +7,7 @@ def shorty(the_file, compare_num):
     wc_file = open("./dest/comp2.fasta", 'w')
     wi_file = open("./dest/incomp2.fasta", 'w')
 
+    print("\n   Removing Entries that are too short\n")
     your_bar.start_it()
 
     the_step = compare_num / 50
