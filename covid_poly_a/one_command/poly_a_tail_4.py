@@ -54,7 +54,8 @@ def polya(the_file, compare_num):
 
     the_list = []
     first_line = True
-    
+
+    print("\n   Calculating Poly-A Tail length\n")
     your_bar.start_it()
     a_step = compare_num / 50
     the_count = 0
