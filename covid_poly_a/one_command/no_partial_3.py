@@ -7,6 +7,7 @@ def nopartial(the_file, compare_num):
     wc_file = open("./dest/comp3.fasta", 'w')
     wi_file = open("./dest/incomp3.fasta", 'w')
 
+    print("\n   Removing Entries with \"Partial\" in Title\n")
     your_bar.start_it()
     a_step = compare_num / 50
     the_count = 0
