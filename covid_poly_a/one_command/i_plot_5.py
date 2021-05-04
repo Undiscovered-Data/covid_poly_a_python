@@ -4,7 +4,7 @@ def plot_it(the_file):
     from collections import Counter
     import matplotlib.pyplot as plt
     
-    print("\n\t\tPlotting...")
+    print("\n\t\tPlotting\t5 of 5")
 
     open_file = open(the_file, 'r')
 
