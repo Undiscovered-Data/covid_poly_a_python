@@ -14,7 +14,7 @@ def the_sort(the_file, keep_data):
     count_virus = 0
     icount_virus = 0
 
-    print("\n\tRemoving viruses with N\n")
+    print("\n\tRemoving viruses with N\t 1 of 5\n")
     
     for line in o_file:
         if is_first and line.startswith('>'):
